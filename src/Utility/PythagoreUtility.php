@@ -8,12 +8,12 @@ class PythagoreUtility
 {
     public function display(): string
     {
-        $html = '<table >';
+        $html = '<table style="border-collapse:collapse; width:50%; text-align:center;margin:20px; ">';
 
         for ($i = 0; $i <= 10; $i++) {
-            $html .= '<tr>';
+            $html .= '<tr style= "border-bottom:1px solid #eee; padding:10px;">';
             for ($j = 0; $j <= 10; $j++) {
-                $html .= '<td>';
+                $html .= '<td style= "border-left:1px solid #eee; padding:10px;">';
                 if($i === 0){
                     $html .= $j;
                 }else if($j === 0){
