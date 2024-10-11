@@ -1,4 +1,8 @@
 {% extends 'base.html.twig' %}
 
-{% block content %} {{ htmlResponse }} {% endblock %}
+{% block content %}
+    <h1> {{ name }} </h1>
+    <div > {{ table |raw }} </div>
+
+{% endblock %}
 
